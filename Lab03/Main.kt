@@ -22,21 +22,21 @@ fun main(args: Array<String>) {
     print("---------------------------------\n")
 
     if (ope == 1){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).Suma()
+        ImplementacionOperacionesAvanzadas().Suma(pedirNumero(),pedirNumero())
     }else if (ope == 2){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).Resta()
+        ImplementacionOperacionesAvanzadas().Resta(pedirNumero(),pedirNumero())
     }else if (ope == 3) {
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).Multiplicación()
+        ImplementacionOperacionesAvanzadas().Multiplicación(pedirNumero(),pedirNumero())
     }else if (ope == 4){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).División()
+        ImplementacionOperacionesAvanzadas().División(pedirNumero(),pedirNumero())
     }else if (ope == 5){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).Potencia()
+        ImplementacionOperacionesAvanzadas().Potencia(pedirNumero(),pedirNumero())
     }else if (ope == 6) {
-        ImplementacionOperacionesAvanzadas(pedirNumero(),pedirNumero()).Raíz()
+        ImplementacionOperacionesAvanzadas().Raíz(pedirNumero(),pedirNumero())
     }else if (ope == 7){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),1).Factorial()
+        ImplementacionOperacionesAvanzadas().Factorial(pedirNumero())
     }else if (ope == 8){
-        ImplementacionOperacionesAvanzadas(pedirNumero(),1).Sumatoria()
+        ImplementacionOperacionesAvanzadas().Sumatoria(pedirNumero())
     }
 }
 
