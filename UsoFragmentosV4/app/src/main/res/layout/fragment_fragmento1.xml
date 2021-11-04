@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.Fragmento1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Estas en el contenido del Fragmento 1"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/lblRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="1"
+        android:background="#00BCD4"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:text="(recibido del Fragmento2)"
+        android:textSize="26sp" />
+</LinearLayout>
